@@ -1,0 +1,111 @@
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ ls
+README.md
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ ls -a
+./  ../  .git/  README.md
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        practica git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git add .
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git commit -m "agregado"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Miguel@DESKTOP-EHMVETS.(none)')
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git config --global user.email "miguel_1319104805@uptecamac.edu.mx"
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git config --global user.name "Miguel Angel Martinez"
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git commit -m "agregado"
+[main 439f3df] agregado
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 practica git.txt
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 75.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Miguel-AngelMartinez/Programacion-web2421IS.git
+   bace9c7..439f3df  main -> main
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git add .
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   codigowapo.js
+        new file:   desktop.ini
+        new file:   pagina guapa.html
+        new file:   practica.html
+        new file:   practica.js
+        new file:   primer pagina web.html
+
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git push
+Everything up-to-date
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ ^C
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git commit -m "agregando practica"
+[main cc4a3e5] agregando practica
+ 6 files changed, 166 insertions(+)
+ create mode 100644 codigowapo.js
+ create mode 100644 desktop.ini
+ create mode 100644 pagina guapa.html
+ create mode 100644 practica.html
+ create mode 100644 practica.js
+ create mode 100644 primer pagina web.html
+
+Miguel@DESKTOP-EHMVETS MINGW64 ~/Downloads/programacion web/Programacion-web2421IS (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.92 KiB | 281.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Miguel-AngelMartinez/Programacion-web2421IS.git
+   439f3df..cc4a3e5  main -> main
+
+//para que no se me olvide XD
