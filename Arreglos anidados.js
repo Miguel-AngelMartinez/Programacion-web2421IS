@@ -41,7 +41,7 @@ var fetiches={
 console.log(fetiches);
 
 function evento(){
-    let recuperado=document.getElementById(uno).value;
+    let recuperado=document.getElementById("uno").value;
     alert(`${recuperado} hola`);
 }
 
