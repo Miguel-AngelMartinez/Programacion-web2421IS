@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="icon" href="2114515.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <script src="logica mina.js"></script>
+    <div>
+<header id="main-header">
+    <a id="logo-header" href="#"></a>
+</header>
+        <header id="css">
+            <input id="jugador"type="text">
+            <button onclick="datos()" type="submit">nombre</button>
+            <br>
+
+        </header>
+<br>
+<br><br>
+<br>
+
+<h1 id="panel">Busca Minas</h1>
+
+<label id="mostrar"></label>
+
+        <div class="panel">
+            
+            <select id="op">
+
+                <option value="A">a</option>
+                <option value="B">b</option>
+                <option value="C">c</option>
+                <option value="D">d</option>
+                <option value="F">f</option>
+
+                <option value="G">G</option>
+                <option value="H">h</option>
+                <option value="I">i</option>
+                <option value="J">j</option>
+                <option value="K">k</option>
+            </select>
+            <input id="pos" type="number" min="0" max="9">     
+            <!--Boton de movimiento-->
+            
+            <button onclick="juego()" type="submit">buscar</button>
+            <button onclick="Mina()"type="submit">bandera</button>
+            <button onclick="reset()">reiniciar</button>
+
+        </div>
+
+    </div>
+
+    <label id="estatus"></label>
+    <label id="estatus2"></label>
+
+<div id="tablero">
+
+</div>    
+
+
+</body>
+</html>
